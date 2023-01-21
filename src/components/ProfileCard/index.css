@@ -1,0 +1,21 @@
+.profile_card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 80%;
+  margin: 30px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.profile_name {
+  align-self: flex-start;
+  text-align: center;
+}
+.profile_description {
+  align-self: flex-start;
+  padding-bottom: 10px;
+}
+.profile_image {
+  align-self: flex-start;
+}
