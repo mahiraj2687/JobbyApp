@@ -1,6 +1,7 @@
 import {Route, Switch} from 'react-router-dom'
 import LoginForm from './components/LoginForm'
 import Jobs from './components/Jobs'
+import Home from './components/Home'
 
 import './App.css'
 
@@ -9,6 +10,7 @@ import './App.css'
 // Replace your code here
 const App = () => (
   <Switch>
+    <Route exact path="/home" component={Home} />
     <Route exact path="/" component={LoginForm} />
     <Route exact path="/jobs" component={Jobs} />
   </Switch>

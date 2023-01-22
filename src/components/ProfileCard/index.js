@@ -3,7 +3,7 @@ import './index.css'
 const ProfileCard = () => (
   <div className="profile_card">
     <img
-      src="https://assets.ccbp.in/frontend/react-js/logo-img.png "
+      src="https://assets.ccbp.in/frontend/react-js/male-avatar-img.png"
       alt="profileImage"
       className="profile_image"
     />

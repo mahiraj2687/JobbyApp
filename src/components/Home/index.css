@@ -1,0 +1,25 @@
+.home_image {
+  height: 80%;
+  width: 50%;
+  align-self: center;
+}
+.home_container {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.welcome_heading {
+  color: white;
+  text-align: center;
+}
+.find_jobs {
+  color: white;
+  background-color: rgb(130, 130, 219);
+  height: 40px;
+  width: 200px;
+  align-self: center;
+  border-radius: 10px;
+  margin: 15px;
+}
